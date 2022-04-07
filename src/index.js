@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const elem = <h2>Hello World</h2>
+const ekem = React.createElement('h2', /*class*/{className: "greetings"},/* Definnetion*/'Witaj')
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  //
+  // </React.StrictMode>,
+    ekem,
   document.getElementById('root')
 );
 
